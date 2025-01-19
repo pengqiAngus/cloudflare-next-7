@@ -5,9 +5,9 @@ const nextConfig: NextConfig = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-  nextConfig.experimental = {
-    ...nextConfig.experimental,
-    runtime: 'nodejs',
-  };
-
+    nextConfig.experimental = {
+        ...nextConfig.experimental,
+        runtime: 'nodejs',
+    };
+}
 export default nextConfig;
