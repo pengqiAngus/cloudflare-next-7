@@ -6,7 +6,7 @@ export default function IndexComponent() {
          "https://cloudflare-next-7.pages.dev/api/helloworld"
        );
        const msg = await res.json();
-       alert("worker: " + msg);
+      alert('worker: ' + msg.message)
      } catch (e) {
          console.log(e);
          
