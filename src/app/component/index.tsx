@@ -9,7 +9,6 @@ export default function IndexComponent() {
       alert("worker: " + msg.message);
      } catch (e) {
          console.log(e);
-         
        return 123;
      }
    }
