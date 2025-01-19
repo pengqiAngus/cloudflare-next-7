@@ -8,6 +8,8 @@ export default function IndexComponent() {
        const msg = await res.json();
        alert("worker: " + msg);
      } catch (e) {
+         console.log(e);
+         
        return 123;
      }
    }
