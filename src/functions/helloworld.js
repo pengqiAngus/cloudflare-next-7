@@ -7,7 +7,7 @@ const corsHeaders = {
 };
 
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request) {
     // 处理 OPTIONS 预检请求
     if (request.method === "OPTIONS") {
       return new Response(null, {
